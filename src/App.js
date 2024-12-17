@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+
+import React from 'react';
+import ChatWindow from './ChatWindow';
+import { Container, Typography } from '@mui/material';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="md">
+      <Typography variant="h4" component="h1" align="center" gutterBottom style={{ marginTop: '20px' }}>
+        Service Bulletin Chat Assistant
+      </Typography>
+      <ChatWindow />
+    </Container>
   );
 }
 

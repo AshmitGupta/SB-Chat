@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceBulletin>
+  <Header>
+    <Title>BOEING SERVICE BULLETIN 737-00-1028</Title>
+    <IssueDate>July 20, 2020</IssueDate>
+    <Model>737-8 and 737-9 Airplanes</Model>
+    <ATA_System>0000</ATA_System>
+    <Subject>ADMINISTRATIVE GENERAL - Aircraft General - Angle of Attack Sensor System Test and Operational Readiness Flight</Subject>
+  </Header>
+  <Effectivity>
+    <Airplanes>
+      <LineNumbers>5602, 5668, 5788</LineNumbers>
+    </Airplanes>
+  </Effectivity>
+  <Reason>
+    <Text>This service bulletin provides mandated instructions to perform an Angle of Attack (AOA) Sensor System Test and an Operational Readiness Flight.</Text>
+  </Reason>
+  <Description>
+    <Steps>
+      <Step>Perform an Angle of Attack (AOA) Sensor System Test.</Step>
+      <Step>Perform an Operational Readiness Flight.</Step>
+    </Steps>
+    <MaintenanceZones>211, 212</MaintenanceZones>
+  </Description>
+  <Compliance>
+    <FAA_AD_Possibility>The Federal Aviation Administration (FAA) may release an Airworthiness Directive related to this service bulletin.</FAA_AD_Possibility>
+    <AirworthinessDirective>Yes</AirworthinessDirective>
+    <ComplianceTimes>
+      <Action>
+        <Description>Perform Angle of Attack (AOA) Sensor System Test.</Description>
+        <ComplianceTime>Before Operational Readiness Flight.</ComplianceTime>
+      </Action>
+      <Action>
+        <Description>Perform an Operational Readiness Flight.</Description>
+        <ComplianceTime>Before Revenue Flight.</ComplianceTime>
+      </Action>
+    </ComplianceTimes>
+  </Compliance>
+  <Manpower>
+    <Task>
+      <Description>Angle of Attack (AOA) Sensor System Test</Description>
+      <NumberOfPersons>5</NumberOfPersons>
+      <TaskHours>40</TaskHours>
+      <ElapsedHours>8</ElapsedHours>
+    </Task>
+    <Task>
+      <Description>Operational Readiness Flight</Description>
+      <NumberOfPersons>5</NumberOfPersons>
+      <TaskHours>50</TaskHours>
+      <ElapsedHours>10</ElapsedHours>
+    </Task>
+    <TotalForEachAirplane>
+      <TaskHours>90</TaskHours>
+      <ElapsedHours>18</ElapsedHours>
+    </TotalForEachAirplane>
+  </Manpower>
+  <MaterialInformation>
+    <PartsNecessary>
+      <KitsParts>
+        <Part>
+          <PartNumber>AOA-SENSOR-001</PartNumber>
+          <Description>Angle of Attack Sensor Assembly</Description>
+          <Quantity>2</Quantity>
+          <Supplier>Boeing OEM</Supplier>
+        </Part>
+        <Part>
+          <PartNumber>TEST-EQUIP-123</PartNumber>
+          <Description>AOA Sensor Test Equipment</Description>
+          <Quantity>1</Quantity>
+          <Supplier>Boeing Tools</Supplier>
+        </Part>
+      </KitsParts>
+      <PartsSuppliedByOperator>
+        <Part>
+          <PartNumber>FASTENER-789</PartNumber>
+          <Description>Standard Fasteners</Description>
+          <Quantity>10</Quantity>
+          <Supplier>Local Supplier</Supplier>
+        </Part>
+      </PartsSuppliedByOperator>
+    </PartsNecessary>
+    <SpecialTooling>None</SpecialTooling>
+  </MaterialInformation>
+  <AccomplishmentInstructions>
+    <GeneralInformation>
+      <Notes>
+        <Note>Manual titles are referred to by acronyms. Refer to Paragraph 1.J., References, for definitions.</Note>
+        <Note>Follow all warnings and cautions given in the specified manual sections.</Note>
+        <Note>Compliance times are in Paragraph 1.E., Compliance.</Note>
+      </Notes>
+    </GeneralInformation>
+    <WorkInstructions>
+      <Step>
+        <Description>Perform Angle of Attack (AOA) Sensor System Test of the left and right AOA sensors in accordance with 737-8/-9 AMM 34-21-05-730-801 dated Jul 15/2020 or later Boeing approved revisions.</Description>
+      </Step>
+      <Step>
+        <Description>Perform an Operational Readiness Flight including flaps retracted flight at or above 20,000 ft. MSL. Refer to Appendix A.</Description>
+      </Step>
+    </WorkInstructions>
+  </AccomplishmentInstructions>
+</ServiceBulletin>

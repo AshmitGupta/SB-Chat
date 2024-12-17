@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceBulletin>
+  <Header>
+    <Title>BOEING SERVICE BULLETIN 747-25-3050</Title>
+    <IssueDate>March 15, 2021</IssueDate>
+    <Model>747-400 Airplanes</Model>
+    <ATA_System>2500</ATA_System>
+    <Subject>EQUIPMENT/FURNISHINGS - Passenger Seat Retrofit and Installation</Subject>
+  </Header>
+  <Effectivity>
+    <Airplanes>
+      <LineNumbers>1234, 1256, 1289, 5668</LineNumbers>
+    </Airplanes>
+  </Effectivity>
+  <Reason>
+    <Text>This service bulletin provides instructions to retrofit passenger seats for improved safety and comfort.</Text>
+  </Reason>
+  <Description>
+    <Steps>
+      <Step>Remove existing passenger seats.</Step>
+      <Step>Install new ergonomic passenger seats.</Step>
+    </Steps>
+    <MaintenanceZones>300, 301</MaintenanceZones>
+  </Description>
+  <Compliance>
+    <FAA_AD_Possibility>No FAA Airworthiness Directive is expected for this service bulletin.</FAA_AD_Possibility>
+    <AirworthinessDirective>No</AirworthinessDirective>
+    <ComplianceTimes>
+      <Action>
+        <Description>Remove existing passenger seats.</Description>
+        <ComplianceTime>At operator's discretion.</ComplianceTime>
+      </Action>
+      <Action>
+        <Description>Install new ergonomic passenger seats.</Description>
+        <ComplianceTime>At operator's discretion.</ComplianceTime>
+      </Action>
+    </ComplianceTimes>
+  </Compliance>
+  <Manpower>
+    <Task>
+      <Description>Seat Removal</Description>
+      <NumberOfPersons>4</NumberOfPersons>
+      <TaskHours>32</TaskHours>
+      <ElapsedHours>8</ElapsedHours>
+    </Task>
+    <Task>
+      <Description>Seat Installation</Description>
+      <NumberOfPersons>4</NumberOfPersons>
+      <TaskHours>40</TaskHours>
+      <ElapsedHours>10</ElapsedHours>
+    </Task>
+    <TotalForEachAirplane>
+      <TaskHours>72</TaskHours>
+      <ElapsedHours>18</ElapsedHours>
+    </TotalForEachAirplane>
+  </Manpower>
+  <MaterialInformation>
+    <PartsNecessary>
+      <KitsParts>
+        <Part>
+          <PartNumber>SEAT-ERGO-747</PartNumber>
+          <Description>Ergonomic Passenger Seat Assembly</Description>
+          <Quantity>400</Quantity>
+          <Supplier>Boeing Interiors</Supplier>
+        </Part>
+        <Part>
+          <PartNumber>SEATBELT-NEW</PartNumber>
+          <Description>Adjustable Seat Belts</Description>
+          <Quantity>400</Quantity>
+          <Supplier>Boeing Safety Systems</Supplier>
+        </Part>
+      </KitsParts>
+      <PartsSuppliedByOperator>
+        <Part>
+          <PartNumber>BOLT-5000</PartNumber>
+          <Description>High-strength Bolts</Description>
+          <Quantity>1600</Quantity>
+          <Supplier>Local Hardware Supplier</Supplier>
+        </Part>
+      </PartsSuppliedByOperator>
+    </PartsNecessary>
+    <SpecialTooling>
+      <Tool>
+        <ToolNumber>TORQUE-WRENCH-200</ToolNumber>
+        <Description>Torque Wrench (200 Nm capacity)</Description>
+        <Quantity>2</Quantity>
+      </Tool>
+    </SpecialTooling>
+  </MaterialInformation>
+  <AccomplishmentInstructions>
+    <GeneralInformation>
+      <Notes>
+        <Note>Refer to the Maintenance Manual (MM) for detailed procedures.</Note>
+        <Note>Ensure all safety protocols are followed during seat removal and installation.</Note>
+      </Notes>
+    </GeneralInformation>
+    <WorkInstructions>
+      <Step>
+        <Description>Remove existing passenger seats according to MM 25-21-01.</Description>
+      </Step>
+      <Step>
+        <Description>Install new ergonomic seats using installation kit SEAT-ERGO-747KIT as per MM 25-21-02.</Description>
+      </Step>
+      <Step>
+        <Description>Perform functional tests on all installed seats.</Description>
+      </Step>
+    </WorkInstructions>
+  </AccomplishmentInstructions>
+</ServiceBulletin>
